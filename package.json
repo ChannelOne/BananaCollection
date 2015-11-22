@@ -1,0 +1,11 @@
+{
+  "name": "bananacollection",
+  "version": "1.0.0",
+  "description": "A typescript style data structure for web application.",
+  "main": "collection.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Duzhong Chen",
+  "license": "MIT"
+}
