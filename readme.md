@@ -9,7 +9,7 @@ some functions in Backbone
 
 ## Event
 
-### class Event<modelType, argsType>
+### class Event\<modelType, argsType\>
 
 ```
 var evt: BC.Event<string, any> = new BC.event<string, any>;
@@ -73,21 +73,21 @@ should start with `event_`.
 ### Embedded property
 
  - cid: number
- - event_changed: Event<Model, any>
- - event_error: Event<Model, any>
- - event_invalid: Event<Model, any>
+ - event_changed: Event\<Model, any\>
+ - event_error: Event\<Model, any\>
+ - event_invalid: Event\<Model, any\>
 
 
 ## Collection
 
-### class Collection<T extends Model>
+### class Collection\<T extends Model\>
 
 There are some embedded properties
 
- - event_add: Event<Collection<T>, any>;
- - event_remove: Event<Collection<T>, any>;
- - event_update: Event<Collection<T>, any>;
- - event_sort: Event<Collection<T>, any>;
+ - event_add: Event\<Collection\<T\>, any\>;
+ - event_remove: Event\<Collection\<T\>, any\>;
+ - event_update: Event\<Collection\<T\>, any\>;
+ - event_sort: Event\<Collection\<T\>, any\>;
 
 ### Collection::add(T, AddOption?): void
 
